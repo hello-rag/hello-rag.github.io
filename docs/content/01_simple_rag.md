@@ -116,7 +116,7 @@ pdf_path = "../../data/AI_Information.en.zh-CN.pdf"
 # 提取文本
 extracted_text = extract_text_from_pdf(pdf_path)
 
-# 切分文本块，块长度为300，重叠度为50
+# 切分文本块，块长度为500，重叠度为100
 text_chunks = chunk_text(extracted_text, 500, 100)
 
 # 文本块的数量
