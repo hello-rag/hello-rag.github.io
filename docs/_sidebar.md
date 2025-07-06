@@ -1,6 +1,8 @@
-<!-- * [前言](./docs/a-1备战面试.md) -->
+* 前期准备
+  * [安装说明](./content/00_installation.md)
+  * [数据集介绍](./content/00_dataset.md)
+  * [数据预处理](./content/00_data_preprocessing.md)
 * RAG
-  <!-- * [什么是RAG](./content/01_simple_rag.mmd) -->
   * [第一章 简单RAG](./content/01_simple_rag.md)
   * [第二章 语义块切分](./content/02_semantic_chunking.md)
   * [第三章 上下文增强检索](./content/03_context_enriched_rag.md)
