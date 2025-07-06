@@ -12,7 +12,7 @@
 
 ## 🏳️‍🌈 前言
 `Hello-RAG` 采用从头搭建的方式，完全不依赖 `LangChain`、`LlamaIndex` 等现有框架。我们仅使用基础的 Python 库（如 `openai`、`numpy`、`fitz`（`pymupdf`）等），让开发者能够深入到 RAG 的每一个细节中，亲手构建每一个模块，从而对 RAG 的工作原理有更深入的理解。通过 `Hello-RAG`，开发者可以熟悉文本嵌入、语义检索、上下文处理和响应生成等各个流程，真正掌握 RAG 的核心。
-
+## 🎈 内容导航
 | 章节 | 关键内容 | 状态 |
 | --- | --- | --- |
 | [第一章 简单 RAG](./content/01_simple_rag.md) | 基本的 RAG 实现 |✅|
@@ -35,8 +35,21 @@
 | **分块技术** | | |
 | [块大小选择器](./content/001_chunk_size_selector.md)             | 探讨不同块大小对检索性能的影响。                             |✅|
 | [命题分块](./content/00_chunk_size_selector.md)               | 将文档分解为原子事实陈述，以实现精确检索。                   |✅|
-## Simple RAG
 
+## 💡 学习建议
+
+本项目适合大学生、研究人员、`LLM` 爱好者。在学习本项目之前，你需要具备一定的编程经验，尤其是要对 `Python` 编程语言有一定的了解。最好具备深度学习的相关知识，并了解 `RAG` 和 `LLM` 领域的相关概念和术语，以便更轻松地学习本项目。
+
+本项目分为两部分——`RAG`和分块技术。第1章～第17章是`RAG`及其各种实现方法，从浅入深介绍 `RAG` 的基本原理。分块技术部分介绍了不同块大小对检索性能的影响，以及如何将文档分解为原子事实陈述，以实现精确检索。代码不是最主要的，重要的是理解 `RAG` 的原理，了解思路，并尝试自己实现一些模块。你可以根据个人兴趣和需求，选择性地阅读相关章节。
+
+## 🔋 参考文档
+- [all-rag-techniques](https://github.com/hemmydev/all-rag-techniques)
+- [rag-all-techniques](https://github.com/liu673/rag-all-techniques)
+- [Happy-LLM](https://github.com/datawhalechina/happy-llm)
+- [RAG 介绍](https://www.youtube.com/watch?v=900l7z0y-yI)
+<!-- ## 其他资源
+
+- [RAG 介绍](https://www.youtube.com/watch?v=900l7z0y-yI)
 检索增强生成（RAG）是一种混合方法，它结合了信息检索与生成模型。通过结合外部知识，它增强了语言模型的表现，提高了准确性和事实的正确性。
 
 -----
@@ -576,4 +589,4 @@ CRAG 在传统 RAG 的基础上进行了以下改进：
 
 ## RESOURCES:
 - https://levelup.gitconnected.com/testing-18-rag-techniques-to-find-the-best-094d166af27f
-- https://github.com/FareedKhan-dev/all-rag-techniques
+- https://github.com/FareedKhan-dev/all-rag-techniques -->
