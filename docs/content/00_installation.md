@@ -1,12 +1,13 @@
 
 # 数据介绍
 1. `AI_Information.en.zh-CN.pdf` 文档是一个包含多种信息的PDF文件，主要用于演示如何从PDF中提取文本并进行处理。该文档包含了关于AI的各种信息，包括定义、应用、发展历程等。
-<iframe 
+[AI_Information.en.zh-CN.pdf](/data/AI_Information.en.zh-CN.pdf ':embed:type=pdf')
+<!-- <iframe 
     src="/data/AI_Information.en.zh-CN.pdf" 
     width="100%" 
     height="800px" 
     style="border: none;">
-</iframe>
+</iframe> -->
 2. `val.json` 是一个JSON文件，其中包含了关于AI_Information.en.zh-CN.pdf文档中提取出的问答对。该文件包含了10个问答对，每个问答对都包含了问题和答案。
 ```json
 [
