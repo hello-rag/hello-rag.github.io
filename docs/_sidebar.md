@@ -1,6 +1,6 @@
 * 前期准备
-  * [安装说明](./content/00_installation.md)
-  * [数据集介绍](./content/00_dataset.md)
+  <!-- * [安装说明](./content/00_installation.md) -->
+  * [数据介绍](./content/00_installation.md)
   * [数据预处理](./content/00_data_preprocessing.md)
 * RAG
   * [第一章 简单RAG](./content/01_simple_rag.md)
