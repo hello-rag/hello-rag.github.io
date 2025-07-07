@@ -96,7 +96,7 @@ def chunk_text(text, n, overlap):
 
 
 ```python
-# 国内支持类OpenAI的API都可，我用的是火山引擎的，需要配置对应的base_url和api_key
+# 国内支持类OpenAI的API都可，我用的是硅基流动的，需要配置对应的base_url和api_key
 
 client = OpenAI(
     base_url=os.getenv("LLM_BASE_URL"),
