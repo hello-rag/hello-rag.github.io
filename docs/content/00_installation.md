@@ -2,7 +2,7 @@
 # 数据介绍
 1. `AI_Information.en.zh-CN.pdf` 文档是一个包含多种信息的PDF文件，主要用于演示如何从PDF中提取文本并进行处理。该文档包含了关于AI的各种信息，包括定义、应用、发展历程等。
 <iframe 
-    src="docs/data/AI_Information.en.zh-CN.pdf" 
+    src="/docs/data/AI_Information.en.zh-CN.pdf" 
     width="100%" 
     height="800px" 
     style="border: none;">
